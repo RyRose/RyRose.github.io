@@ -1,6 +1,6 @@
 ---
 layout: null
-title: hi eric
+title: "hi eric"
 permalink: /eric
 ---
 
