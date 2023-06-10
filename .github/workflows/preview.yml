@@ -16,6 +16,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # TODO(RyRose): Fix pr-preview-action behavior in not cleaning up CNAME file.
+      - name: Remove CNAME file
+        run: |
+          rm CNAME
+
       - name: Install and Build
         run: |
           sudo apt-get install ruby-full build-essential zlib1g-dev
