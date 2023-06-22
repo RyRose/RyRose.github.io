@@ -252,8 +252,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages
-  jekyll
+  github-pages (~> 228)
+  jekyll-sitemap
 
 BUNDLED WITH
    2.4.13
