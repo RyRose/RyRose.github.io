@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Ryan Rose
 description: Ryan's personal website.
+exclude: LICENSE
