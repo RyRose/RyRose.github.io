@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Ryan Rose
-description: Ryan's personal website.
+description: A personal website.
 exclude:
   - .github/
   - .gitignore
