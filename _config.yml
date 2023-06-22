@@ -1,7 +1,14 @@
 theme: jekyll-theme-minimal
 title: Ryan Rose
 description: Ryan's personal website.
-exclude: LICENSE
+exclude:
+  - .github/
+  - .gitignore
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
 url: "https://www.ryanrose.me" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
