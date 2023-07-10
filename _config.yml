@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Ryan Rose
-description: A personal website.
+description: Ryan's personal website.
+author: Ryan Rose
 exclude:
   - .github/
   - .gitignore
@@ -12,3 +13,4 @@ exclude:
 url: "https://www.ryanrose.me" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
