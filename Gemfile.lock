@@ -256,10 +256,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages (~> 228)
-  jekyll-feed
-  jekyll-sitemap
-  webrick (~> 1.8)
+  github-pages
+  webrick
 
 BUNDLED WITH
    2.4.13

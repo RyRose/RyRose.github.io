@@ -1,7 +1,9 @@
-theme: jekyll-theme-minimal
+remote_theme: jekyll/minima@2863624b903b17f838d6ce8d2f77900fa9d3c864
 title: Ryan Rose
 description: Ryan's personal website.
-author: Ryan Rose
+author:
+  name: Ryan Rose
+  email: "contact@ryanrose.me"
 exclude:
   - .github/
   - .gitignore
@@ -11,6 +13,13 @@ exclude:
   - LICENSE
   - runlocal.sh
 url: "https://www.ryanrose.me" # the base hostname & protocol for your site
+minima:
+  skin: auto
+header_pages:
+  - README.md # Set README as only header page to exclude default permalinks.
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-remote-theme
