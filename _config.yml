@@ -15,6 +15,9 @@ exclude:
 url: "https://www.ryanrose.me" # the base hostname & protocol for your site
 minima:
   skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/RyRose" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/ryanthrose" }
 header_pages:
   - README.md # Set README as only header page to exclude default permalinks.
 disqus:
