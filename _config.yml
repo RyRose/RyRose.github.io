@@ -17,6 +17,8 @@ minima:
   skin: auto
 header_pages:
   - README.md # Set README as only header page to exclude default permalinks.
+disqus:
+  shortname: ryanrose
 plugins:
   - jekyll-sitemap
   - jekyll-feed
