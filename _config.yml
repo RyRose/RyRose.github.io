@@ -4,6 +4,7 @@ description: Ryan's personal website.
 author:
   name: Ryan Rose
   email: "contact@ryanrose.me"
+google_analytics: G-KBJJ14TGZC
 exclude:
   - .github/
   - .gitignore
